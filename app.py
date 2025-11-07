@@ -13,4 +13,4 @@ def run(port, devmode=False):
     else:
         app.run(host='0.0.0.0', port=port)
 
-run(int(os.environ.get('PORT', 8998)), devmode=True)
+run(8998)
