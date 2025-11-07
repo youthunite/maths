@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0f4ff;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 3rem 5rem;
+  position: relative;
+  z-index: 1;
+}
+.left {
+  flex: 1;
+  z-index: 2;
+}
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.title .youth {
+  color: #ff6b00;
+}
+.title .unite {
+  color: #0077cc;
+}
+.maths {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 3rem;
+  color: #ff8c42;
+  animation: bounce 2s infinite;
+  margin-top: 1rem;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0) rotate(-5deg); }
+  50% { transform: translateY(-10px) rotate(-5deg); }
+}
+.right {
+  flex: 1;
+  background: #ffffffcc;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 450px;
+  z-index: 2;
+}
+.right h2 {
+  color: #0077cc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.stats {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.stats li {
+  margin: 0.5rem 0;
+}
+.cta-button {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #e65c00;
+}
+.equation {
+  position: absolute;
+  font-size: 1.6rem;
+  font-family: 'Courier New', monospace;
+  color: #005fa3;
+  opacity: 0.2;
+  pointer-events: auto;
+  animation: float 12s infinite ease-in-out;
+  transition: all 0.3s ease;
+}
+
+.equation:hover {
+  opacity: 1;
+  color: #ff6b00;
+  transform: scale(1.2) rotate(2deg);
+  z-index: 3;
+  background: #ffffffaa;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-40px); }
+  100% { transform: translateY(0); }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .right {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .maths {
+    font-size: 2.5rem;
+  }
+}
