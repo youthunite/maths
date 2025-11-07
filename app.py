@@ -13,4 +13,5 @@ def run(port, devmode=False):
     else:
         app.run(host='0.0.0.0', port=port)
 
-run(8998)
+if __name__ == "__main__":
+    run(8998)
