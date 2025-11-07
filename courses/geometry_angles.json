@@ -1,0 +1,20 @@
+{
+  "id": "geometry_angles",
+  "name": "Geometry: Angles",
+  "difficulty": 3,
+  "duration_minutes": 5,
+  "slides": [
+    {"title": "Angle Basics", "body": "Angles measure rotation between two rays. Units: degrees (°)."},
+    {"title": "Types of Angles", "body": "Acute (<90°), Right (=90°), Obtuse (>90° and <180°), Straight (=180°)."},
+    {"title": "Complementary & Supplementary", "body": "Complementary sum to 90°. Supplementary sum to 180°."},
+    {"title": "Vertical Angles", "body": "When two lines cross, opposite angles are equal."},
+    {"title": "Triangle Angle Sum", "body": "Angles in a triangle sum to 180°. Use this to find missing angles."}
+  ],
+  "quiz": {
+    "questions": [
+      {"q": "An angle of 120° is:", "choices": ["Acute", "Right", "Obtuse", "Straight"], "answerIndex": 2, "explain": "120° is greater than 90° and less than 180° → obtuse."},
+      {"q": "If two angles are complementary and one is 35°, the other is:", "choices": ["55°", "145°", "35°", "90°"], "answerIndex": 0, "explain": "90° - 35° = 55°."},
+      {"q": "Vertical angles are:", "choices": ["Unequal", "Equal", "Supplementary", "Right angles"], "answerIndex": 1, "explain": "Vertical angles are always equal."}
+    ]
+  }
+}

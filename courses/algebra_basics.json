@@ -1,0 +1,20 @@
+{
+  "id": "algebra_basics",
+  "name": "Algebra Basics",
+  "difficulty": 2,
+  "duration_minutes": 5,
+  "slides": [
+    {"title": "What is a Variable?", "body": "A variable is a symbol (like x) that represents a number. We can solve for it using equations."},
+    {"title": "Like Terms", "body": "Like terms have the same variable and exponent. Example: 2x and 5x are like terms; 2x and 2y are not."},
+    {"title": "Simplifying Expressions", "body": "Combine like terms: 2x + 5x - 3 = 7x - 3."},
+    {"title": "Solving 1-Step Equations", "body": "Undo the operation: if x + 4 = 9, then x = 9 - 4 = 5."},
+    {"title": "Solving 2-Step Equations", "body": "Example: 3x + 4 = 16 → 3x = 12 → x = 4."}
+  ],
+  "quiz": {
+    "questions": [
+      {"q": "Combine: 3x + 4x - 2", "choices": ["7x - 2", "3x + 4x - 2", "7x + 2", "x - 2"], "answerIndex": 0, "explain": "3x + 4x = 7x, then 7x - 2."},
+      {"q": "Solve: x + 6 = 11", "choices": ["x = 17", "x = 5", "x = -5", "x = 6"], "answerIndex": 1, "explain": "Subtract 6 from both sides: x = 5."},
+      {"q": "Solve: 2x + 3 = 11", "choices": ["x = 4", "x = 7", "x = 14", "x = 8"], "answerIndex": 0, "explain": "2x = 8 → x = 4."}
+    ]
+  }
+}

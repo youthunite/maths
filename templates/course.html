@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course</title>
+  <link rel="stylesheet" href="/static/css/course.css">
+</head>
+<body>
+  <div class="logo"><a href="/view"><span style="color:#ff6b00;">Youth</span><span style="color:#0077cc;">UNITE</span></a></div>
+
+  <div class="course-container">
+    <div class="course-header">
+      <h1 id="courseTitle"></h1>
+      <div id="difficulty" class="rating"></div>
+    </div>
+
+    <div id="slides" class="slides">
+      <div class="slide">
+        <h2 id="slideTitle"></h2>
+        <p id="slideBody"></p>
+      </div>
+      <div class="nav">
+        <button id="prevBtn">Prev</button>
+        <div id="progress"></div>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+
+    <div id="quiz" class="quiz hidden">
+      <h2>Quiz</h2>
+      <div id="quizContainer"></div>
+      <button id="submitQuiz">Submit</button>
+      <div id="quizResult"></div>
+    </div>
+  </div>
+
+  <script>
+    window.__COURSE_ID__ = "{{ course_id }}";
+  </script>
+  <script src="/static/js/course.js"></script>
+</body>
+</html>

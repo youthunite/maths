@@ -1,0 +1,20 @@
+{
+  "id": "fractions_proportions",
+  "name": "Fractions & Proportions",
+  "difficulty": 2,
+  "duration_minutes": 5,
+  "slides": [
+    {"title": "What is a Fraction?", "body": "A fraction a/b represents a parts out of b equal parts."},
+    {"title": "Equivalent Fractions", "body": "Multiply/divide numerator and denominator by same number."},
+    {"title": "Simplifying", "body": "Divide top and bottom by their GCD. Example: 8/12 → 2/3."},
+    {"title": "Proportions", "body": "Two ratios are equal: a/b = c/d. Cross-multiply: ad = bc."},
+    {"title": "Solving Proportions", "body": "Example: x/5 = 6/10 → 10x = 30 → x = 3."}
+  ],
+  "quiz": {
+    "questions": [
+      {"q": "Simplify 15/25", "choices": ["3/5", "5/3", "15/25", "1/5"], "answerIndex": 0, "explain": "Divide by 5 → 3/5."},
+      {"q": "Solve: x/4 = 6/8", "choices": ["x = 3", "x = 4", "x = 6", "x = 8"], "answerIndex": 1, "explain": "Cross-multiply: 8x = 24 → x = 3. Wait, check: x/4 = 6/8 = 3/4 → x = 3."},
+      {"q": "Which are equivalent?", "choices": ["2/3 and 4/6", "3/5 and 6/11", "1/2 and 3/5", "5/10 and 3/6"], "answerIndex": 0, "explain": "4/6 simplifies to 2/3."}
+    ]
+  }
+}

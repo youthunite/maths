@@ -1,0 +1,20 @@
+[
+  {
+    "id": "algebra_basics",
+    "name": "Algebra Basics",
+    "difficulty": 2,
+    "file": "algebra_basics.json"
+  },
+  {
+    "id": "geometry_angles",
+    "name": "Geometry: Angles",
+    "difficulty": 3,
+    "file": "geometry_angles.json"
+  },
+  {
+    "id": "fractions_proportions",
+    "name": "Fractions & Proportions",
+    "difficulty": 2,
+    "file": "fractions_proportions.json"
+  }
+]
