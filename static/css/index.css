@@ -93,6 +93,27 @@ body {
   padding: 0.2rem 0.5rem;
   border-radius: 6px;
 }
+.top-banner {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 224, 102, 0.3);
+  padding: 0.8rem 4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #444;
+  border-radius: 12px;
+  animation: bannerBounce 2.2s infinite;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 5;
+}
+
+
+@keyframes bannerBounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(-10px); }
+}
 
 @keyframes float {
   0% { transform: translateY(0); }

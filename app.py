@@ -27,4 +27,4 @@ def run(port, devmode=False):
         app.run(host='0.0.0.0', port=port)
 
 if __name__ == "__main__":
-    run(8998)
+    run(8998, devmode=True)
